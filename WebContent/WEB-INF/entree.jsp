@@ -15,9 +15,8 @@ ${ information.title }
 
 	<div class="image-container">
 		<img class="image-content" alt="" src="<%= request.getContextPath()%>/photos/full/20181219_095742.jpg">
-		<a class="image-link" style="top:15%;left:20%" href="#hello">hello</a>
-		<a class="image-link" style="top:30%;left:10%" href="#world">world</a>
-		<a class="image-link" style="top:40%;left:80%" href="?id=42">Accueil</a>
+		<a class="image-link" style="top:15%;left:20%" href="<%= request.getContextPath()%>/accueil">Accueil</a>
+		<a class="image-link" style="top:40%;left:80%" href="?id=42">Retour</a>
 	</div>
 
 </body>
