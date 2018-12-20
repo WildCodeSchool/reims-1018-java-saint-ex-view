@@ -26,11 +26,11 @@
 </div>
 
 <div class="tab-pane fade" id="nav-rdc" role="tabpanel" aria-labelledby="nav-rdc-tab">
-		<img src="<%= request.getContextPath() %>/photos/full/20181219_100824.jpg" class="img-fluid" alt="Responsive image">
+		<img src="<%= request.getContextPath() %>/photos/full/20181219_095742.jpg" class="img-fluid" alt="Responsive image">
 </div>
 
 <div class="tab-pane fade" id="nav-ss" role="tabpanel" aria-labelledby="nav-ss-tab">
-		<img src="<%= request.getContextPath() %>/photos/full/20181219_102336.jpg" class="img-fluid" alt="Responsive image">
+		<img src="<%= request.getContextPath() %>/photos/full/48414226_812494072425017_6965448789511372800_n.jpg" class="img-fluid" alt="Responsive image">
 </div>
 </div>
 
