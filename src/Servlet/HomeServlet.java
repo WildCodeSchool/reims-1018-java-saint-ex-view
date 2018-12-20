@@ -38,7 +38,7 @@ public class HomeServlet extends HttpServlet {
 			Information info = new Information(1, "hello", "lorem ipsum");
 			request.setAttribute("information", info);
 			
-			this.getServletContext().getRequestDispatcher("/WEB-INF/foo.jsp").forward(request,response);	
+			this.getServletContext().getRequestDispatcher("/WEB-INF/entree.jsp").forward(request,response);	
 		}
 		
 	}
