@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import Java.Information;
+
 /**
  * Servlet implementation class HomeServlet
  */
@@ -29,15 +31,16 @@ public class HomeServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		this.getServletContext().getRequestDispatcher("/WEB-INF/index.jsp").forward(request,response);
-	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
+		if(request.getParameter("foo") == null || request.getParameter("foo") == "") {
+			this.getServletContext().getRequestDispatcher("/WEB-INF/index.jsp").forward(request,response);
+		}
+		else {
+			Information info = new Information(1, "hello", "lorem ipsum");
+			request.setAttribute("information", info);
+			
+			this.getServletContext().getRequestDispatcher("/WEB-INF/foo.jsp").forward(request,response);	
+		}
+		
 	}
 
 }
