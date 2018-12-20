@@ -22,7 +22,7 @@
     <a class="nav-item nav-link" id="nav-ss-tab" data-toggle="tab" href="#nav-ss" role="tab" aria-controls="nav-ss" aria-selected="false">SS</a>
   </div>
 </nav>
-
+<div class ="tab-content" id="nav-tabContent">
 <div class="tab-pane fade show active" id="nav-stex" role="tabpanel" aria-labelledby="nav-stex-tab">
 		<img src="<%= request.getContextPath() %>/photos/full/itinéraire.png" class="img-fluid" alt="Responsive image">
 </div>
@@ -32,9 +32,8 @@
 </div>
 
 <div class="tab-pane fade" id="nav-ss" role="tabpanel" aria-labelledby="nav-ss-tab">
-  	<div id="zonep">
 		<img src="<%= request.getContextPath() %>/photos/full/20181219_102336.jpg" class="img-fluid" alt="Responsive image">
-   	</div>
+</div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
