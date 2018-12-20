@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Saint Ex View</title>
 </head>
 <body>
-
+Hello World
 </body>
 </html>
