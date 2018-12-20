@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/style.css"/>
 
 <title>Saint Ex View</title>
 </head>
@@ -24,20 +24,16 @@
 </nav>
 
 <div class="tab-pane fade show active" id="nav-stex" role="tabpanel" aria-labelledby="nav-stex-tab">
-    <div id="zonep">
-		<img src="https://raw.githubusercontent.com/WildCodeSchool/reims-1018-java-saint-ex-view/mk_photos/Photos/Full/20181219_095742.jpg" class="img-fluid" alt="Responsive image">
-    </div>
+		<img src="<%= request.getContextPath() %>/photos/full/itinéraire.png" class="img-fluid" alt="Responsive image">
 </div>
 
 <div class="tab-pane fade" id="nav-rdc" role="tabpanel" aria-labelledby="nav-rdc-tab">
-	<div id="zonep">
-		<img src="https://raw.githubusercontent.com/WildCodeSchool/reims-1018-java-saint-ex-view/mk_photos/Photos/Full/20181219_100824.jpg" class="img-fluid" alt="Responsive image">
- 	</div>
+		<img src="<%= request.getContextPath() %>/photos/full/20181219_100824.jpg" class="img-fluid" alt="Responsive image">
 </div>
 
 <div class="tab-pane fade" id="nav-ss" role="tabpanel" aria-labelledby="nav-ss-tab">
   	<div id="zonep">
-		<img src="https://raw.githubusercontent.com/WildCodeSchool/reims-1018-java-saint-ex-view/mk_photos/Photos/Full/20181219_102336.jpg" class="img-fluid" alt="Responsive image">
+		<img src="<%= request.getContextPath() %>/photos/full/20181219_102336.jpg" class="img-fluid" alt="Responsive image">
    	</div>
 </div>
 
