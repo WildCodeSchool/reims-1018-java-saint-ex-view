@@ -17,7 +17,7 @@ ${ information.title }
 		<img class="image-content" alt="" src="<%= request.getContextPath()%>/photos/full/20181219_095742.jpg">
 		<a class="image-link" style="top:15%;left:20%" href="#hello">hello</a>
 		<a class="image-link" style="top:30%;left:10%" href="#world">world</a>
-		<a class="image-link" style="top:40%;left:80%" href="?id=42">goto 42</a>
+		<a class="image-link" style="top:40%;left:80%" href="?id=42">Accueil</a>
 	</div>
 
 </body>
