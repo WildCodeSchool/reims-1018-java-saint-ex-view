@@ -1,3 +1,5 @@
+package Java;
+
 
 public class Information {
 	private int id;
