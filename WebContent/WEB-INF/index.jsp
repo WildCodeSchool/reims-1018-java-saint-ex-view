@@ -11,10 +11,6 @@
 </head>
 <body>
 
-
-
-
-<h1>Hello World</h1>
 <nav>
   <div class="nav nav-pills justify-content-center" id="nav-tab" role="tablist">
     <a class="nav-item nav-link active" id="nav-stex-tab" data-toggle="tab" href="#nav-stex" role="tab" aria-controls="nav-stex" aria-selected="true">Se rendre à Saint Ex</a>
@@ -28,11 +24,11 @@
 </div>
 
 <div class="tab-pane fade" id="nav-rdc" role="tabpanel" aria-labelledby="nav-rdc-tab">
-		<img src="<%= request.getContextPath() %>/photos/full/20181219_100824.jpg" class="img-fluid" alt="Responsive image">
+		<img src="<%= request.getContextPath() %>/photos/full/20181219_095742.jpg" class="img-fluid" alt="Responsive image">
 </div>
 
 <div class="tab-pane fade" id="nav-ss" role="tabpanel" aria-labelledby="nav-ss-tab">
-		<img src="<%= request.getContextPath() %>/photos/full/20181219_102336.jpg" class="img-fluid" alt="Responsive image">
+		<img src="<%= request.getContextPath() %>/photos/full/48414226_812494072425017_6965448789511372800_n.jpg" class="img-fluid" alt="Responsive image">
 </div>
 </div>
 
