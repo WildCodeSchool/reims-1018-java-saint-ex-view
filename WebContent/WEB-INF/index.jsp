@@ -11,8 +11,6 @@
 </head>
 <body>
 
-<h1>Hello World</h1>
-
 <nav>
   <div class="nav nav-pills justify-content-center" id="nav-tab" role="tablist">
     <a class="nav-item nav-link active" id="nav-stex-tab" data-toggle="tab" href="#nav-stex" role="tab" aria-controls="nav-stex" aria-selected="true">Se rendre à Saint Ex</a>

@@ -16,6 +16,11 @@ public class RoomList {
 		Room room1 = new Room(1, "20181219_095742.jpg", "Bienvenue", links1);
 		
 		List<Link> links2 = new ArrayList<Link>();
+		links2.add(new Link("top:35%;left:75%", "?room=4", "Polaroid"));
+		links2.add(new Link("top:20%;left:50%", "", "Spectacle"));
+		links2.add(new Link("top:75%;left:40%", "?room=2", "Accueil"));
+		links2.add(new Link("top:65%;left:75%", "?room=3", "Bar"));
+		links2.add(new Link("top:35%;left:5%", "?room=5", "Labo"));
 		Room room2 = new Room(2, "20181219_100739.jpg", "Accueil", links2);
 		
 		List<Link> links3 = new ArrayList<Link>();
@@ -24,10 +29,13 @@ public class RoomList {
 		List<Link> links4 = new ArrayList<Link>();
 		Room room4 = new Room(4, "20181219_101107.jpg", "", links4);
 		
+		List<Link> links5 = new ArrayList<Link>();
+		Room room5 = new Room(5, "20181219_101220.jpg", "", links5);
 		rooms.add(room1);
 		rooms.add(room2);
 		rooms.add(room3);
 		rooms.add(room4);
+		rooms.add(room5);
 	}
 	
 	public List<Room> getRooms() {
