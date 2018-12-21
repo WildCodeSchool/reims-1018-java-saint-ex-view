@@ -4,14 +4,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>FabLab</title>
+<title>Atelier</title>
 <link rel="stylesheet" href="<%= request.getContextPath() %>/style.css">
 </head>
 <body>
 ${ information.title }
 
 	<div class="image-container">
-		<img class="image-content" alt="" src="<%= request.getContextPath()%>/photos/mini/IMG_2508.jpg">
+		<img class="image-content" alt="" src="<%= request.getContextPath()%>/photos/full/20181219_102818.jpg">
 		<a class="image-link" style="top:15%;left:20%" href="#hello">Par ici</a>
 		<a class="image-link" style="top:40%;left:80%" href="http://localhost:8080/saint-ex_view/">Accueil</a>
 	</div>
