@@ -20,15 +20,17 @@
 </nav>
 <div class ="tab-content" id="nav-tabContent">
 <div class="tab-pane fade show active" id="nav-stex" role="tabpanel" aria-labelledby="nav-stex-tab">
-		<img src="<%= request.getContextPath() %>/photos/full/itinéraire.png" class="img-fluid" alt="Responsive image">
+	    <img src="<%= request.getContextPath() %>/photos/full/itinéraire.png" class="img-fluid itin" alt="Responsive image">
 </div>
 
 <div class="tab-pane fade" id="nav-rdc" role="tabpanel" aria-labelledby="nav-rdc-tab">
-		<img src="<%= request.getContextPath() %>/photos/full/20181219_095742.jpg" class="img-fluid" alt="Responsive image">
+		<img src="<%= request.getContextPath() %>/photos/full/20181219_095742.jpg" class="img-fluid image" alt="Responsive image">
+		<a class="image-linkaccueil" style="top:45%;left:48%" href="<%= request.getContextPath()%>/?room=1">Vers Entrée</a> 
 </div>
 
 <div class="tab-pane fade" id="nav-ss" role="tabpanel" aria-labelledby="nav-ss-tab">
-		<img src="<%= request.getContextPath() %>/photos/full/48414226_812494072425017_6965448789511372800_n.jpg" class="img-fluid" alt="Responsive image">
+		<img src="<%= request.getContextPath() %>/photos/full/48414226_812494072425017_6965448789511372800_n.jpg" class="img-fluid image" alt="Responsive image">
+		<a class="image-linkaccueil" style="top:45%;left:48%" href="<%= request.getContextPath()%>/?room=7">Vers Sous-sol</a> 
 </div>
 </div>
 

@@ -58,7 +58,7 @@ public class RoomList {
 		
 		
 		List<Link> links10 = new ArrayList<Link>();
-		links10.add(new Link("top:70%;left:60%", "?room=7", "FeedBar"));
+		links10.add(new Link("top:70%;left:60%", "?room=3", "FeedBar"));
 		Room room10 = new Room(10, "20181219_100856.jpg", "Galerie", links10);
 		
 		
